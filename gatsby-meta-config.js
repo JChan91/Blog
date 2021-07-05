@@ -1,14 +1,13 @@
 module.exports = {
-  title: `zoomkoding.dev`,
-  description: `zoomkoding's dev log`,
-  author: `zoomkoding`,
+  title: `Chan`,
+  description: `chan's dev log`,
+  author: `박종찬`,
 
-  siteUrl: `https://zoomkoding.netlify.com`,
-  ogImage: `https://raw.githubusercontent.com/zoomKoding/gatsby-starter-zoomkoding/master/src/assets/og-image.png`,
+  siteUrl: `https://chan2.netlify.com`,
+  ogImage: `https://raw.githubusercontent.com/zoomKoding/gatsby-starter-zoomkoding/master/src/assets/og-image.png`, // 공유할 때 보이는 프리뷰
   social: {
-    github: `https://github.com/zoomKoding`,
-    linkedIn: `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-    email: `zoomkoding@gmail.com`,
+    github: `https://github.com/JChan91`,
+    email: `fourbin1221@gmail.com`,
   },
   comments: {
     utterances: {
@@ -19,83 +18,35 @@ module.exports = {
 
   // metadata for bio
   bio: {
-    language: `en`, // 'en', 'ko'
-    name: 'zoomkoding',
-    description: ['making something great', 'who enjoys learning', 'interested in UI/UX', 'who like to write'],
+    language: `ko`, // 'en', 'ko'
+    name: '박종찬',
+    description: [
+      '호기심이 많은',
+      'CI/CD에 관심이 많은',
+      '사용자를 위한 서비스를 만드는',
+      '남을 도우는 것을 즐기는',
+    ],
   },
 
   // metadata for About Page
   about: {
     timestamps: [
       {
-        date: '2018.07 ~ 2018.12',
-        activity: '자존감 랩실(X-ray 그리드 라인 제거 개선 기법 연구)',
+        date: '2018.07 ~ 2019.05',
+        activity: '실시간 스트리밍 라이브러리 연구',
       },
 
       {
-        date: '2018.11.22',
-        activity: '2018 교내 인공지능(육목) 경진대회 우승',
+        date: '2020.07 ~ 2020.12',
+        activity: '코드스테이츠 Software Engineering 23기',
       },
 
       {
-        date: '2019.06 ~ 2019.12',
-        activity: '알고리즘 휴학',
+        date: '2020.11 ~ 2020.12',
+        activity: '밤하늘 출사 웹 서비스',
         links: {
-          post: 'https://zoomkoding.github.io/%ED%9A%8C%EA%B3%A0/2019/12/05/how-to-algo.html',
-        },
-      },
-
-      {
-        date: '2019.11.17',
-        activity: '코드포스 블루',
-        links: {
-          post: 'https://zoomkoding.github.io/codeforces/2019/11/17/codeforces-600.html',
-        },
-      },
-
-      {
-        date: '2019.11.18',
-        activity: '2019 교내 인공지능(육목) 경진대회 우승',
-      },
-
-      {
-        date: '2019.11.21',
-        activity: '네이버 캠퍼스 핵데이 참여',
-        links: {
-          post:
-            'https://zoomkoding.github.io/codingtest/naver/2019/11/26/2019-naver-hackday-2.html',
-        },
-      },
-
-      {
-        date: '2019.12 ~ 2020.06',
-        activity: '스타트업 인턴 진행 및 Picky 앱 개발',
-        links: {
-          post:
-            'https://zoomkoding.github.io/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85/%ED%9A%8C%EA%B3%A0/2020/03/25/start-up-app-development.html',
-          googlePlay: 'https://play.google.com/store/apps/details?id=care.jivaka.picky',
-          appStore: 'https://apps.apple.com/app/picky-skincare-made-smarter/id1504197356',
-        },
-      },
-
-      {
-        date: '2020.07 ~ 2020.08',
-        activity: '2020 우아한테크캠프 참여',
-        links: {
-          post:
-            'https://zoomkoding.github.io/%ED%9A%8C%EA%B3%A0/%EC%9A%B0%EC%95%84%ED%95%9C%ED%85%8C%ED%81%AC%EC%BA%A0%ED%94%84/2020/10/05/woowa-tech-camp-final.html',
-          github: 'https://github.com/woowa-techcamp-2020/bmart-6',
-        },
-      },
-
-      {
-        date: '2021.01 ~ 2021.02',
-        activity: '대학시간(대학교 수강신청 보조 웹 앱) 개발 및 서비스',
-        links: {
-          post:
-            'https://zoomkoding.github.io/%EB%8C%80%ED%95%99%EC%8B%9C%EA%B0%84/%ED%9A%8C%EA%B3%A0/2021/02/10/college-timetable-development.html',
-          github: 'https://github.com/zoomkoding/college-timetable',
-          demo: 'http://www.timetable.college',
+          post: 'https://mystar-story.com',
+          github: 'https://github.com/codestates/starrynight_client',
         },
       },
     ],
