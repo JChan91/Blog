@@ -36,7 +36,6 @@ export const pageQuery = graphql`
 
         social {
           github
-          linkedIn
           email
         }
 
@@ -47,9 +46,6 @@ export const pageQuery = graphql`
             links {
               post
               github
-              demo
-              googlePlay
-              appStore
             }
           }
 
@@ -61,9 +57,6 @@ export const pageQuery = graphql`
             links {
               post
               github
-              demo
-              googlePlay
-              appStore
             }
           }
         }
