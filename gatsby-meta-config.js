@@ -62,6 +62,7 @@ module.exports = {
         links: {
           post:
             'https://zoomkoding.github.io/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85/%ED%9A%8C%EA%B3%A0/2020/03/25/start-up-app-development.html',
+          github: 'https://github.com/codestates/starrynight_server',
         },
       },
     ],
