@@ -1,6 +1,6 @@
 ---
 emoji: 🤓
-title: static Block, File.separator
+title: Local Repo - Github Repo 등록하는 방법
 date: '2021-07-07 20:30:00'
 author: JChan
 tags: git
