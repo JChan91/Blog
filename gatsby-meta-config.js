@@ -21,10 +21,10 @@ module.exports = {
     language: `ko`, // 'en', 'ko'
     name: '박종찬',
     description: [
-      '호기심이 많은',
-      'CI/CD에 관심이 많은',
+      '호기심 많은',
+      'CI/CD에 관심 많은',
       '사용자를 위한 서비스를 만드는',
-      '남을 도우는 것을 즐기는',
+      '남 도우는 것을 즐기는',
     ],
   },
 
@@ -32,8 +32,12 @@ module.exports = {
   about: {
     timestamps: [
       {
-        date: '2018.07 ~ 2019.05',
-        activity: '실시간 스트리밍 라이브러리 연구',
+        date: '2020.11 ~ 2020.12',
+        activity: '밤하늘 출사 웹 서비스',
+        links: {
+          post: 'https://mystar-story.com',
+          github: 'https://github.com/codestates/starrynight_client',
+        },
       },
 
       {
@@ -42,12 +46,8 @@ module.exports = {
       },
 
       {
-        date: '2020.11 ~ 2020.12',
-        activity: '밤하늘 출사 웹 서비스',
-        links: {
-          post: 'https://mystar-story.com',
-          github: 'https://github.com/codestates/starrynight_client',
-        },
+        date: '2018.07 ~ 2019.05',
+        activity: '실시간 스트리밍 라이브러리 연구',
       },
     ],
 
